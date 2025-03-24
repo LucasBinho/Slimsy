@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* grids */
+.content-grid-4,
+.content-grid-8 {
+  display: inline;
+  float: left;
+  margin: 0 0.833em;
+}
+
+.content-grid-4 {
+  min-width: 300px;
+  width: 300px;
+}
+.content-grid-8 {
+  min-width: 620px;
+  width: 620px;
+}
+/* grids */
+
+header h1 {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+}
+
+header h2 {
+  color: #929292;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.2em;
+  padding-top: 0.3em;
+  margin-bottom: 20px;
+}
+
+.bloco {
+  overflow: hidden;
+  width: 100%;
+}
+
+.adv {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.header-border {
+  border-top: 1px solid #ebebeb;
+  overflow: hidden;
+  padding-top: 16px;
+  width: 100%;
+}
+
+.content p {
+  font-size: 19px;
+  letter-spacing: -0.03em;
+}
+
+.bigP {
+  font-size: 27px;
+}
+
+.textBlue {
+  font-size: 22px;
+  color: #0921a5;
+}
+
+.pBlue {
+  color: #0921a5;
+  font-size: 16px;
+}
+
+.graySection {
+  background-color: rgb(238, 238, 238);
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+}
+
+.graySection h5 {
+  color: #212529;
+}
+
+.headerMobile {
+    background: #ec7d00;
+    padding: 7px 0;
+    margin-bottom: 25px;
+}
+
+.headerMobile h5 {
+    font-size: 18px;
+    font-family: arial;
+    letter-spacing: -1px;
+    line-height: 35px;
+    margin-bottom: 0;
+    color: #FFF;
+}
+
+/* desktop modal de promo */
+.fixedPromo {
+  min-width: 300px;
+  width: 300px;
+  position: fixed;
+}
+
+.fixedPromo-btn {
+  width: 270px;
+}
+
+.update {
+  border: 1px dotted #000;
+  background: #effff7;
+  padding: 4px 9px;
+  font-size: 12px;
+}
+
+.update-span {
+  color: #2700ff;
+}
+
+.widget-titulo {
+  margin: auto auto 11px -1px;
+  overflow: hidden;
+  zoom: 1;
+  border-top: 2px solid #b1e452;
+
+  border: 1px solid #ececec;
+  border-radius: 0 0 3px 3px;
+  border-style: none solid solid;
+  border-width: 0 1px 1px;
+  padding: 0 10px;
+}
+.widget-titulo strong {
+  color: #333;
+  font-size: 13px;
+  float: left;
+  padding: 10px 0 11px 12px;
+  width: 70%;
+  margin-bottom: 0;
+}
+/* desktop modal de promo */
+
+@media (min-width: 960px) {
+  .contentContainer {
+    margin: 30px auto !important;
+    min-width: 960px;
+    width: 960px;
+  }
+}
+
+@media (max-width: 768px) {
+
+    .contentContainer {
+        padding: 0 12px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+
+  .fixedPromo {
+    display: none;
+  }
+
+  .content-grid-8 {
+    width: 100%;
+  }
+
+  .content-grid-4,
+  .content-grid-8 {
+    min-width: auto;
+    margin: 0;
+  }
+}
