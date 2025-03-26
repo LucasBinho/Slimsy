@@ -23,7 +23,7 @@
       href="./assets/owl.carousel.min.css"
     />
     <link rel="stylesheet" href="./assets/style_lp.css" />
-    <link rel="stylesheet" href="./assets/main.css" />
+    <link rel="stylesheet" href="./assets/main.css?v=0" />
     <style type="text/css">
       .zipcode_loading {
         display: none;
@@ -16277,9 +16277,8 @@
       />
     </div>
     <div class="fixed-div">
-      <strong
-        >Atenção! Somente nos dias: 20, 21 e 22 de Março você tem até 60% de
-        desconto e frete grátis.</strong
+      <strong id="promo-text">
+      </strong
       >
     </div>
     <header id="iwtyl">
@@ -16296,14 +16295,14 @@
         <div class="row">
           <div class="col-12 col-sm-5 col-md-5 img-produto">
             <img
-              src="./assets/top banner_moricita2.png"
+              src="./assets/mockup-1.png"
               alt="Logo"
               id="bottle"
               class="img-fluid d-block m-auto"
             />
           </div>
           <img
-            src="./assets/top banner_moricita2.png"
+            src="./assets/mockup-1.png"
             alt=""
             id="mobile_bottle"
             class="m-auto img-fluid"
@@ -16598,9 +16597,9 @@
               <span
                 >Devido a falta de matéria prima e o excesso de pedidos causados
                 pelas matérias e reportagens na televisão
-                <strong>temos uma quantidade limitada de frascos</strong>
+                <strong>temos uma quantidade limitada de potes</strong>
                 prontos para serem despachados hoje:
-                <strong id="ijgmfk">Sábado, 22 de Março de 2025</strong>
+                <strong id="ijgmfk">Sábado, <span class="today" style="color: #38bf66; font-weight: bold;"></span> de Março de 2025</strong>
               </span>
             </div>
           </div>
@@ -16881,7 +16880,7 @@
           >
             <h1>QUAL KIT MAIS VENDIDO?</h1>
             <p>
-              O kit mais vendido e o mais recomendado é o kit com 5 frascos, que
+              O kit mais vendido e o mais recomendado é o kit com 5 potes, que
               garante 60% de desconto e ainda ganha frete grátis. Isso porque
               recomendamos o uso por no mínimo 3 meses para um resultado ótimo,
               e com 5 meses terá o resultado máximo que o tratamento pode lhe
@@ -16904,14 +16903,13 @@
             </p>
             <h1>COMO FAZER USO DO Slimsy?</h1>
             <p>
-              Consuma 1ml (equivalente a 12 gotas) por dia de Slimsy em colher
-              de chá antes do café da manhã ou em jejum
+              Consuma 2 cápsulas por dia antes do café da manhã ou jejum.
             </p>
-            <h1>QUAL A QUANTIDADE EM ML TEM UM FRASCO?</h1>
-            <p>Cada frasco possui 30ml, uso diário de 1ml por dia.</p>
+            <h1>QUAL A QUANTIDADE DE CÁPSULAS UM POTE?</h1>
+            <p>Cada pote possui 60 cápsulas, uso diário de 2 cápsulas por dia.</p>
             <h1>O Slimsy É LIBERADO PELA ANVISA?</h1>
             <p class="mb-0">
-              O MOROTRIL é liberado pela Anvisa nos termos da RDC 240 de
+              O Slimsy é liberado pela Anvisa nos termos da RDC 240 de
               26/07/2018, sendo dispensado de registro, pois é avaliado como
               100% Seguro para o consumo da população.
             </p>
@@ -16936,58 +16934,62 @@
     <section class="compra-internet" id="iijaki">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-sm-4 img-fluid">
+          <div class="col-sm-5 img-fluid">
             <img
-              src="./assets/risco-zero.png"
+              src="./assets/mockup_2.png"
               alt="Logo"
               class="img-fluid"
             />
           </div>
-          <div class="col-sm-5 img-fluid">
+          <div class="col-sm-7 img-fluid">
             <p class="mb-0 mt-xl-0 mt-4">
               Adquira o Slimsy hoje e seja protegido automaticamente pela
               Garantia Blindada Slimsy, onde você tem 30 dias para testar
               nosso poderoso emagrecedor. Se por algum motivo, dentro do prazo
               de 30 dias, você achar que seu investimento não valeu a pena, nos
-              avise pelo email de suporte sac@onlinemania.com.br que nós
-              compraremos os frascos de volta de você! Se até um frasco estiver
+              avise pelo email de suporte sac@slimsy.com que nós
+              compraremos os potes de volta de você! Se até um pote estiver
               violado ou vazio, pagaremos pra você o mesmo preço que você pagou
               por eles cheios, sem perguntas e sem complicações.
             </p>
-          </div>
-          <div class="col-sm img-fluid"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm"></div>
-          <div class="col-sm-5 mt-4 mt-xl-0">
-            <a href="javascript:void(0)">
-              <div class="btn-qr" id="ijma91" onclick="goToScroll(kits)">
-                <p id="iwblrf" style="margin-bottom: 1rem">
-                  <span id="ibjtyj"
-                    ><strong>SIM, EU QUERO EMAGRECER!</strong>
-                  </span>
-                  <br /><span id="ikdnfz"
-                    >CLIQUE AQUI E GARANTA SEU KIT COM DESCONTO</span
-                  >
-                </p>
+            <br>
+            <div class="container">
+              <div class="row">
+                <!-- <div class="col-sm"></div> -->
+                <div class=" mt-4 mt-xl-0">
+                  <a href="javascript:void(0)">
+                    <div class="btn-qr" id="ijma91" onclick="goToScroll(kits)">
+                      <p id="iwblrf" style="margin-bottom: 1rem">
+                        <span id="ibjtyj"
+                          ><strong>SIM, EU QUERO EMAGRECER!</strong>
+                        </span>
+                        <br /><span id="ikdnfz"
+                          >CLIQUE AQUI E GARANTA SEU KIT COM DESCONTO</span
+                        >
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <!-- <div class="col-sm"></div> -->
               </div>
-            </a>
+            </div>
+            <br>
+            <div class="container">
+              <div class="row">
+                <!-- <div class="col-sm"></div> -->
+                <div class="col-sm-6" id="icyc1k">
+                  <img src="./assets/garanti.png" class="img-fluid" />
+                </div>
+                <div class="col-sm"></div>
+              </div>
+            </div>
           </div>
-          <div class="col-sm"></div>
+          <!-- <div class="col-sm img-fluid"></div> -->
         </div>
       </div>
+
       <br />
-      <div class="container">
-        <div class="row">
-          <div class="col-sm"></div>
-          <div class="col-sm-6" id="icyc1k">
-            <img src="./assets/garanti.png" class="img-fluid" />
-          </div>
-          <div class="col-sm"></div>
-        </div>
-      </div>
+
     </section>
     <section class="compra-internet" id="iwuzkf">
       <div class="container">
@@ -17072,7 +17074,7 @@
           <div class="col-12 col-sm-5 col-md-5">
             <div class="exibir-desktop hidden-div">
               <img
-                src="./assets/moricita-fn.png"
+                src="./assets/mockup-1.png"
                 alt=""
                 id="ip8fz3"
                 class="img-fluid"
@@ -17084,7 +17086,7 @@
     </section>
     <section class="formas-pagamento pt-5 pb-5">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-12 col-md-4 img-pagamento">
             <h5>Formas de pagamento:</h5>
             <img
@@ -17095,7 +17097,7 @@
           </div>
           <div class="col-12 col-md-4 contato-footer">
             <h5>contato:</h5>
-            sac@onlinemania.com.br
+            sac@slimsy.com
           </div>
         </div>
       </div>
@@ -17141,7 +17143,7 @@
               Todos os conhecimentos, dicas e métodos compartilhados nesta
               página são de propósito meramente educativo e explicativo em
               relação ao produto comercializado. Em caso de dúvida, envie um
-              e-mail para sac@onlinemania.com.br e entraremos em contato o mais
+              e-mail para sac@slimsy.com e entraremos em contato o mais
               breve possível.
             </p>
           </div>
@@ -17154,23 +17156,19 @@
           <div class="col-12 col-md-6 text-footer mb-0">
             Atendimento
             <div class="links-footer">
-              <a href="mailto:sac@onlinemania.com.br"
-                >Email: sac@onlinemania.com.br</a
+              <a href="mailto:sac@slimsy.com"
+                >Email: sac@slimsy.com</a
               >
+              
               <br />
-              <a
-                href="https://vejaseupedido.com/?tblci=GiBw1ncFQ6h9TI1vNQ3-kDrDXZLGQiHnW_sqoT-TMHgxdyDerWQotv_pgvu73Js4MOLKWQ"
-                >› Rastrear pedido</a
-              >
-              <br />
-              <a href="mailto:sac@onlinemania.com.br">› Contato</a> <br />
+              <a href="mailto:sac@slimsy.com">› Contato</a> <br />
               <a href="javascript:void(0)">› Política de privacidade</a> <br />
               <a href="javascript:void(0)">› Troca e Devolução</a>
             </div>
           </div>
           <div class="col-12 col-md-6 text-footer mb-2">
             Horário de Atendimento: <br />De seg à sex, das 8h às 18h<br />CNPJ:
-            50.559.168/0001-00
+            35.916.936/0002-22
           </div>
         </div>
       </div>
@@ -17334,9 +17332,22 @@ var player;
     <input type="hidden" id="h_id" value="695" />
 
     <script src="./assets/scripts.js"></script>
-    <script defer="">
-      var notify_product = "Slimsy";
-      setTimeout(notifyPopup, rand(3, 7) * 1157);
+    <script>
+      function formatarData(data) {
+        return data.getDate(); // Retorna apenas o dia
+      }
+    
+      var hoje = new Date();
+      var ontem = new Date();
+      ontem.setDate(hoje.getDate() - 1);
+      var anteOntem = new Date();
+      anteOntem.setDate(hoje.getDate() - 2);
+    
+      const mes = hoje.toLocaleDateString("pt-BR", { month: "long" }); // Obtém o mês por extenso
+    
+      document.getElementById("promo-text").innerHTML = `Atenção! Somente nos dias: ${formatarData(anteOntem)}, ${formatarData(ontem)} e ${formatarData(hoje)} de ${mes} você tem até 60% de desconto e frete grátis.`;
+
+      document.querySelector('.today').innerHTML = `${formatarData(hoje)}`;
     </script>
   </body>
 </html>
