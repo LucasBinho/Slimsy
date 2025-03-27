@@ -148,7 +148,7 @@ section.garantia-c p {
 
 .bg-formula {
     text-align: center;
-    background: #f88000;
+    background: #48904f;
     margin-top: 30px;
     color: #fff;
     padding-bottom: 20px;
@@ -170,7 +170,7 @@ section.garantia-c p {
     height: 18px;
     border-left: 18px solid transparent;
     border-right: 18px solid transparent;
-    border-top: 18px solid #f88000;
+    border-top: 18px solid #48904f;
     position: absolute;
     bottom: -38px;
     left: 50%;
@@ -581,6 +581,9 @@ section.perguntas .bg-formula {
 
 .item-anvisa img {
     width: 50%;
+    filter: hue-rotate(130deg) brightness(1);
+-webkit-filter: hue-rotate(130deg) brightness(1);
+
 }
 
 .item-anvisa h6 {
@@ -1027,7 +1030,7 @@ svg.radial-progress:nth-of-type(6n+5) circle {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #b21c72;
+    background-color: #48904f;
     padding: 20px;
     text-align: center;
     color: #fff;
