@@ -334,4 +334,14 @@ ol, ul {
     min-width: auto;
     margin: 0;
   }
+
+  .review-container ul.points .item-name, .review-container ul.points .item-points {
+    font-size: 16px;
+}
+}
+
+@media(max-width: 360px) {
+  .review-container ul.points .item-name, .review-container ul.points .item-points {
+    font-size: 14px;
+  }
 }
