@@ -5,9 +5,9 @@
   font-family: "Roboto", sans-serif;
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 /* grids */
 .content-grid-4,
@@ -151,6 +151,153 @@ header h2 {
 }
 /* desktop modal de promo */
 
+
+
+ol, ul {
+  list-style: none;
+}
+
+#iyqxyd {
+  background-color: #48904f;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+#i1qq4w, #i8pdlc, #inc0mw, #iv4gu6, #ia82cq {
+  width: 100%;
+}
+
+.review-container {
+  font-family: "source sans pro", sans-serif;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+}
+
+.review-container ul.points .item-name {
+  margin-right: 10px;
+}
+.review-container ul.points .item-name, .review-container ul.points .item-points {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+}
+
+.review-container ul.points .bar-wrapper {
+  position: relative;
+  height: 3em;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 3px;
+}
+
+.review-container ul.points .bar-wrapper > div {
+  background-color: rgb(255, 211, 25);
+  transition-behavior: normal;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: width;
+  width: 0px;
+  height: 100%;
+}
+
+.sub-headline strong {
+  font-weight: 500;
+  font-size: 22px !important;
+}
+
+.review-container h2 span {
+  position: absolute;
+  display: block;
+  color: rgb(255, 211, 25);
+  right: 0px;
+  top: 0px;
+  font-size: 0.8em;
+  cursor: default;
+  z-index: 9;
+}
+
+.review-container ul.points .bar-wrapper .item {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding-top: 0.18em;
+  padding-right: 0.5em;
+  padding-bottom: 0.18em;
+  padding-left: 0.5em;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  margin-top: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+}
+
+.review-container h2 {
+  position: relative;
+  font-size: 28px;
+  color: #050505;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+
+.review-container ul.points {
+  margin-top: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 10px !important;
+  margin-left: 0px !important;
+}
+
+.review-container ul.highlights {
+  margin-top: 0px !important;
+  margin-right: 17px !important;
+  margin-bottom: 0px !important;
+  margin-left: 17px !important;
+}
+
+.review-container ul.highlights li {
+  font-size: 15px;
+  line-height: 1.1em;
+  list-style-position: initial !important;
+  list-style-image: initial !important;
+  list-style-type: square !important;
+  color: #050505!important;
+}
+.review-container ul li {
+  margin-bottom: 5px;
+}
+
+.review-container ul.points li {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  list-style-position: initial !important;
+  list-style-image: initial !important;
+  list-style-type: none !important;
+  margin-top: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 1.5em !important;
+  margin-left: 0px !important;
+}
+
 @media (min-width: 960px) {
   .contentContainer {
     margin: 30px auto !important;
@@ -182,5 +329,16 @@ header h2 {
   .content-grid-8 {
     min-width: auto;
     margin: 0;
+  }
+
+  .review-container ul.points .item-name, .review-container ul.points .item-points {
+    font-size: 16px;
+}
+}
+
+
+@media(max-width: 360px) {
+  .review-container ul.points .item-name, .review-container ul.points .item-points {
+    font-size: 14px;
   }
 }

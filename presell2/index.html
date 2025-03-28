@@ -26930,33 +26930,7 @@
       />
     </a>
 
-    <script>
-      var loadDeferredAssets = function () {
-        var deferredAssets = document.getElementById("deferred-assets");
-        if (deferredAssets) {
-          var assetsHTML = deferredAssets.innerHTML;
-          document.head.insertAdjacentHTML("beforeend", assetsHTML);
-          deferredAssets.parentElement.removeChild(deferredAssets);
-        }
-      };
 
-      var raf =
-        window.requestAnimationFrame ||
-        window.mozRequestAnimationFrame ||
-        window.webkitRequestAnimationFrame ||
-        window.msRequestAnimationFrame;
-
-      if (raf) {
-        raf(function () {
-          window.setTimeout(loadDeferredAssets, 0);
-        });
-      } else {
-        window.addEventListener("load", loadDeferredAssets);
-      }
-    </script>
-
-
-    <script src="./assets/request.feedback.js.download"></script>
 
     <link
       type="text/css"
@@ -26996,7 +26970,7 @@
     </script>
         <script>
           function formatarData(data) {
-            return data.getDate(); // Retorna apenas o dia
+            return data.getDate(); 
           }
         
           var hoje = new Date();
